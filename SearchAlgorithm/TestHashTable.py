@@ -1,6 +1,9 @@
 import unittest
 
-from hash_search import HashTable  # 假设散列查找的实现代码保存在 hash_search.py 中
+from SearchAlgorithm.HashTable import HashTable
+
+
+# 假设散列查找的实现代码保存在 hash_search.py 中
 
 class TestHashTable(unittest.TestCase):
 
